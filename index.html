@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Password Strength Tester</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1>Password Strength Tester</h1>
+		<div class="strength-meter" id="strength-meter">
+			<div class="bar"></div>
+		</div>
+		<input
+			class="password-input"
+			id="password-input"
+			value="password"
+			type="text"
+			autofocus
+			aria-labelledby="password"
+		/>
+		<div id="reasons" class="reasons"></div>
+	</body>
+</html>
